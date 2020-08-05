@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 20px;
+    font-family: 'Lato','Arial',sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.699),rgba(0, 0, 0, 0.7)), url(img/head.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.head{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.head h1 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 200%;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.head a {
+    text-decoration: none;
+}
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    border-radius: 200px;
+    text-decoration: none;
+}
+.about-btn:link,
+.about-btn:visited{
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+}
+.contact-btn:link,
+.contact-btn:visited{
+    border: 1px solid #e67e22;
+    color: #e67e22;
+}
+.btn:hover{
+    background-color: #a7540b;
+}
+.about-btn:hover,
+.about-btn:active{
+    border: 1px solid #e67e22;
+}
+.contact-btn:hover,
+.contact-btn:active{
+    border: 1px solid #e67e22;
+    color: #fff;
+}
