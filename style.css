@@ -110,6 +110,10 @@ li {
     width: 65px;
     margin-bottom: 10px;
 }
+.about-container p{
+    color: rgb(95, 83, 83);
+    font-size: 18px;
+}
 
 /* services section */
 
@@ -137,4 +141,13 @@ li {
     text-decoration-line: overline;
     text-decoration-color: #e67e22;
     
+}
+.services h4{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+.services p{
+    font-size: 15px;
+    color: rgb(95, 83, 83);
 }
