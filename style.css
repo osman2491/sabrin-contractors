@@ -80,7 +80,7 @@ header{
     
 }
 li {
-    float: left;
+    display: inline;
     list-style: none;
   }
 .navbar li a {
