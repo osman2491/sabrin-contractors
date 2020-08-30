@@ -175,3 +175,18 @@ nav{
     text-decoration-line: overline;
     text-decoration-color: #e67e22;
 }
+
+/* ---------contact section--------- */
+.contact-container{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    justify-content: center;
+}
+.contact-container img{
+    width: 450px;
+    height: 550px;
+}
+.contact-container form{
+    width: 450px;
+    height: 550px;
+}

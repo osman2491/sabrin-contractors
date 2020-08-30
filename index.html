@@ -19,13 +19,13 @@
                     <li> <a href="#about-us">About</a></li>
                     <li> <a href="#services">Servies</a></li>
                     <li> <a href="#work">Work</a></li>
-                    <li> <a href="">Contact</a></li>
+                    <li> <a href="#contact">Contact</a></li>
                 </ul>
             
         </nav>
         <div class="head">
             <h1>welcome to sabrin <br> the home of quick work.</h1>
-            <a href="#" class="btn about-btn">about us</a>
+            <a href="#about-us" class="btn about-btn">about us</a>
             <a href="#" class="btn contact-btn">contacts</a>
         </div>
     </header>
@@ -103,6 +103,45 @@
 
        </div>
    </section>
+
+   <!-- --------------contact us section-------- -->
+ <section id="contact">
+     <div class="contact-container">
+         <div>
+             <img src="./img/contact.svg" alt="">
+         </div>
+         <div>
+             <form>
+            <span class="contact-form-title">
+                Get in touch
+            </span>
+
+            <div data-validate = "Name is required">
+                <input class="input1" type="text" name="name" placeholder="Name">
+            </div>
+
+            <div data-validate = "Valid email is required: ex@abc.xyz">
+                <input class="input1" type="text" name="email" placeholder="Email">
+            </div>
+
+            <div data-validate = "Subject is required">
+                <input class="input1" type="text" name="subject" placeholder="Subject">
+               
+            </div>
+
+            <div data-validate = "Message is required">
+                <textarea class="input1" name="message" placeholder="Message"></textarea>
+            </div>
+
+            <div>
+                <button class="contact-btn">send
+                </button>
+            </div>
+        </form>
+    </div>
+     </div>
+
+ </section>
 
 </body>
 
