@@ -207,9 +207,9 @@ nav{
 
 .footer-container{
     display: grid;
-    grid-template-columns: 300px 170px 200px;
+    grid-template-columns: 280px 70px 200px;
     justify-content: space-around;
-    grid-gap: 50px 100px;
+    grid-gap: 0px 0px;
     background-color: black;
     color: white;
     height: 400px;
