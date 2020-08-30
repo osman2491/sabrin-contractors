@@ -207,11 +207,12 @@ nav{
 
 .footer-container{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 300px 170px 200px;
     justify-content: space-around;
+    grid-gap: 50px 100px;
     background-color: black;
     color: white;
     height: 400px;
     padding-top: 100px;
-    grid-gap: 10px 90px;
+    
 }
