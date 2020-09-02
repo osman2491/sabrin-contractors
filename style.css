@@ -161,11 +161,11 @@ nav{
 .work-container{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-row-gap: 0px;
+    grid-gap: 0px;
 }
 .work-container img{
-    width: 321px;
-    height: 200px;
+    max-width: 100%;
+    height: auto;
     
 }
 .work h3{
