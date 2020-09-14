@@ -257,3 +257,10 @@ textarea {
     padding-right: 15px;
     
 }
+.links a{
+    color: white;
+    text-decoration: none;
+} 
+.links a:hover{
+    border-bottom: 20px solid white;
+}
