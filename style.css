@@ -216,3 +216,7 @@ nav{
     padding-top: 100px;
     
 }
+
+.icon:hover {
+    filter: invert(0.5) sepia(2);
+}
