@@ -9,7 +9,7 @@ html{
    
 }
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.699),rgba(0, 0, 0, 0.7)), url(img/head.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.699),rgba(0, 0, 0, 0.7)), url(img/landings.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -161,7 +161,7 @@ nav{
 .work-container{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-gap: 0px;
+    row-gap: 0;
 }
 .work-container img{
     max-width: 100%;
