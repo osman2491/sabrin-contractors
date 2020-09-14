@@ -217,6 +217,11 @@ nav{
     
 }
 
-.icon:hover {
+.icons:hover {
     filter: invert(0.5) sepia(2);
+}
+
+.info img{
+    padding-right: 15px;
+    
 }
