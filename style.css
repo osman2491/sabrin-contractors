@@ -3,9 +3,10 @@
     padding: 0px;
     box-sizing: border-box;
 }
-html{
+html,body{
     font-family: 'Lato','Arial',sans-serif;
     font-weight: 300;
+    overflow-x: hidden;
    
 }
 header{
@@ -16,14 +17,13 @@ header{
     color: #fff;
     font-size: 20px;
 }
-.head{
-    position: absolute;
-    width: 1140px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+.head-container{
+    display: grid;
+    grid-template-columns: 500px auto;
+    margin-top: 150px;
+    margin-left: 75px;
 }
-.head h1 {
+.head-container h1 {
     margin-top: 0px;
     margin-bottom: 20px;
     font-size: 200%;
@@ -99,13 +99,17 @@ nav{
 }
 /* about section */
 .about-container{
-    display: grid;
+    /* display: grid;
     grid-template-columns: 500px auto;
     grid-gap: 30px 50px;
     justify-content: center;
     height: 500px;
     margin-top: 100px;
-    font-size: 20px;
+    font-size: 20px; */
+    max-width: 1200px;
+    margin: 90px auto;
+    display: grid;
+    grid-gap: 20px;
 }
 .about-container img{
     height: 400px;

@@ -1,10 +1,21 @@
 /* big tablets to 1200px */
 @media only screen and (max-width: 1200px){
-
+    
 }
 /* from small tablets to big tablets from 768 to 1023 */
 @media only screen and (max-width: 1023px){
-    
+    .nav-links a{
+        padding-right: 10px;
+        margin-right: 10px;
+    }
+    .about-container{
+        grid-template-columns: 1f 1fr;
+        grid-gap: 30px 10px;
+    }
+    .about-container img{
+        width: 350px;
+        height: 400px;
+    }  
 }
 
 /* from small phones to small tablets from 481 to 767 */
@@ -16,3 +27,14 @@
 @media only screen and (max-width: 480px){
     
 }
+
+
+
+@media (min-width: 600px) {
+    .about-container { grid-template-columns: repeat(2, 1fr); }
+  }
+  
+  /* Screen larger than 900px? 3 columns */
+  @media (min-width: 900px) {
+    .about-container { grid-template-columns: repeat(2, 1fr); }
+  }
